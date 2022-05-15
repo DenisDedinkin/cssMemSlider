@@ -11,42 +11,53 @@
 <body>
     <header>
         <div class="container">
-            cssMemSlider
+            <h1 class="logo">CSS MemSlider</h1> 
         </div>
 
     </header>
     <main>
         <div class="container">
-            <div class="slider">
-                                               
-                <div class="slider__content">
 
-                    <div class="slider__img">
-                        <div class="bg__img1"></div>
-                        <p class="slider__txt">Lucky</p>
-                    </div>
-                    <div class="slider__img">
-                        <img src="./src/img/2.gif" alt="pic">
-                        <p class="slider__txt">Lucky</p>
-                    </div>
-                    <div class="slider__img">
-                        <img src="./src/img/3.gif" alt="pic">
-                        <p class="slider__txt">Lucky</p>
-                    </div>
-                    <div class="slider__img">
-                        <img src="./src/img/4.gif" alt="pic">
-                        <p class="slider__txt">Спасибо за просмотр!</p>
+            <div class="slider">
+               
+                <input type="radio" name="slider" id="switch1" checked="checked">
+                <input type="radio" name="slider" id="switch2">
+                <input type="radio" name="slider" id="switch3">
+                <input type="radio" name="slider" id="switch4">
+               
+                <div id="slider__block">
+                    <div id="overflow">
+                        <div class="slider__boxes">
+
+                            <div class="slider__box">
+                                <div class="slider__img _bg1"></div>
+                                <p class="slider__txt">Lucky.</p>
+                            </div>
+                            <div class="slider__box">
+                                <div class="slider__img _bg2"></div>
+                                <p class="slider__txt">I should think.</p>
+                            </div>
+                            <div class="slider__box">
+                                <div class="slider__img _bg3"></div>
+                                <p class="slider__txt">When I forgot to close the apartment.</p>
+                            </div> 
+                            <div class="slider__box">
+                                <div class="slider__img _bg4"></div>
+                                <p class="slider__txt">Thanks for watching!</p>
+                            </div>
+                            
+                        </div>
                     </div>
                 </div>
 
-                <input type="radio" name="slider" title="slide1" class="slider__nav" checked="checked">
-                <input type="radio" name="slider" title="slide2" class="slider__nav">
-                <input type="radio" name="slider" title="slide3" class="slider__nav">
-                <input type="radio" name="slider" title="slide4" class="slider__nav">
-
+                <div id="active">
+                    <label for="switch1"></label>
+                    <label for="switch2"></label>
+                    <label for="switch3"></label>
+                    <label for="switch4"></label>
+                </div>
             </div>
-
-            
+             
         </div>
     </main>
 
