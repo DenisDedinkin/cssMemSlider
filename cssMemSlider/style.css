@@ -179,7 +179,8 @@ input {
 #switch1:checked ~ #active label:nth-child(1),
 #switch2:checked ~ #active label:nth-child(2),
 #switch3:checked ~ #active label:nth-child(3),
-#switch5:checked ~ #active label:nth-child(4) {
+#switch4:checked ~ #active label:nth-child(4),
+#switch5:checked ~ #active label:nth-child(5) {
   background: #18a3dd;
   border-color: #18a3dd !important;
 }
